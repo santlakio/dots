@@ -1,0 +1,104 @@
+{
+  "theme.font.name": "Hack",
+  "theme.font.label": "Hack",
+  "theme.font.size": "0.88rem",
+  "theme.font.weight": 500,
+  "theme.bar.buttons.enableBorders": false,
+  "menus.clock.weather.location": "Helsinki",
+  "menus.clock.weather.unit": "metric",
+  "menus.power.showLabel": true,
+  "bar.battery.label": false,
+  "theme.bar.transparent": false,
+  "theme.bar.buttons.style": "default",
+  "theme.bar.opacity": 35,
+  "wallpaper.pywal": false,
+  "theme.bar.menus.enableShadow": true,
+  "menus.transition": "crossfade",
+  "theme.bar.menus.menu.battery.scaling": 1,
+  "bar.customModules.cpuTemp.sensor": "/sys/devices/pci0000:00/0000:00:18.3/hwmon/hwmon2/temp1_input",
+  "menus.clock.weather.enabled": false,
+  "menus.dashboard.controls.enabled": true,
+  "theme.bar.floating": false,
+  "bar.layouts": {
+    "0": {
+      "left": [
+        "dashboard",
+        "notifications",
+        "windowtitle"
+      ],
+      "middle": [
+        "media",
+        "workspaces"
+      ],
+      "right": [
+        "hyprsunset",
+        "ram",
+        "cpu",
+        "cputemp",
+        "volume",
+        "network",
+        "bluetooth",
+        "systray",
+        "clock"
+      ]
+    },
+    "1": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "volume",
+        "clock",
+        "notifications"
+      ]
+    },
+    "2": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "volume",
+        "clock",
+        "notifications"
+      ]
+    }
+  },
+  "menus.clock.time.military": true,
+  "menus.clock.time.hideSeconds": true,
+  "menus.dashboard.shortcuts.left.shortcut1.command": "Firefox",
+  "menus.dashboard.shortcuts.left.shortcut1.tooltip": "Firefox",
+  "menus.dashboard.directories.enabled": false,
+  "theme.bar.enableShadow": false,
+  "bar.workspaces.showWsIcons": true,
+  "bar.workspaces.showApplicationIcons": true,
+  "bar.workspaces.applicationIconOncePerWorkspace": false,
+  "bar.clock.format": "%a %b %d  %I:%M",
+  "bar.clock.showIcon": false,
+  "bar.media.truncation": false,
+  "bar.media.show_active_only": true,
+  "bar.network.label": false,
+  "bar.network.showWifiInfo": true,
+  "bar.customModules.weather.label": false,
+  "bar.customModules.hyprsunset.temperature": "4000k",
+  "bar.autoHide": "fullscreen",
+  "theme.bar.location": "top",
+  "terminal": "$TERM",
+  "theme.matugen": true,
+  "wallpaper.image": "/home/santtu/Lataukset/wp14372941-dark-ultrawide-4k-wallpapers.jpg",
+  "theme.matugen_settings.scheme_type": "neutral",
+  "theme.matugen_settings.variation": "standard_2",
+  "theme.bar.buttons.background_opacity": 70,
+  "menus.dashboard.shortcuts.left.shortcut1.icon": "",
+  "wallpaper.enable": true,
+  "theme.matugen_settings.mode": "dark"
+}
